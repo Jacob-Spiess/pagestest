@@ -36,13 +36,15 @@
               var foo = document.getElementById('carrier').innerHTML;
               foo++;
               document.getElementById('carrier').innerHTML = foo;
+              
+              analytics.track("Button Clicked");
             }
         </script>  
         
         <script> 
             function opengoogle(){
                 window.open("https://www.google.com");
-                analytics.track("Button Clicked", {plan: "Pro Annual", accountType: "Facebook"});
+                analytics.track("Switched Sides", {});
             }
         </script>
         
