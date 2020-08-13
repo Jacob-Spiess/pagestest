@@ -20,13 +20,14 @@
         <div class="text-center">
             <h1>Hello World</h1>
             <p> Just a sample page with sample text and a sample CTA. Click and nothing will happen.</p>
-            <a class="btn btn-primary" onclick="displaycount()">Click Counter1</a>
+            <a class="btn btn-primary" onclick="displaycount()">Click Counter</a>
+            
+            <p id="carrier"> 0 </p>
 
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         
-        <p id="carrier"> 0 </p>
 
                 
         
@@ -37,7 +38,7 @@
                 return funtion () {return counter +=1;}
             })();
             function displaycount(){
-                document.getElementById("carrier").innerHTML = count();
+                document.getElementById("carrier").innerHTML = 5;
             }
         </script>
 </html>
