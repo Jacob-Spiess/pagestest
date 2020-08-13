@@ -20,11 +20,9 @@
         <div class="text-center">
             <h1>Hello World</h1>
             <p> Just a sample page with sample text and a sample CTA. Click and nothing will happen.</p>
-            <a class="btn btn-primary" onclick="addone()">Click Counter1</a>
+            <a class="btn btn-primary" onclick="addone()">Click Counter</a>
             
             <p id="carrier"> 0 </p>
-            <p id="p1">Hello World!</p>
-
 
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
@@ -36,22 +34,7 @@
               foo++;
               document.getElementById('carrier').innerHTML = foo;
             }
-        </script>
-
-        <script>
-            document.getElementById("p1").innerHTML = "New text!";
-        </script>
-        <script>
-            var counter = 0;
-            function count(){
-                counter = counter +1;
-                return counter;
-            }
-            
-            function change(){
-                document.getElementById("p1").innerHTML = "New new text!";
-            }    
-        </script>       
+        </script>  
         
     </body>
 
