@@ -24,7 +24,7 @@
             
             <p id="carrier"> 0 </p>
             
-            <a class="btn btn-primary" onclick="opengoogle()">Open Google</a>
+            <a class="btn btn-primary" onclick="opengoogle()">Open Google Track</a>
 
 
         </div>
@@ -42,6 +42,7 @@
         <script> 
             function opengoogle(){
                 window.open("https://www.google.com");
+                analytics.track("Button Clicked", {plan: "Pro Annual", accountType: "Facebook"});
             }
         </script>
         
